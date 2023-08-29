@@ -116,6 +116,16 @@ WEB -> 基本 -> 系统管理 -> 登录管理 -> 管理员 -> 管理员配置 ->
 - 调试：`python .\YuukaChan.py runDebug` 是调试模式，另外还可以临时注释掉代码的 `try`(L94) 和 `except`(L424) 部分，更方便看报错信息
 - 小工具目前实现了通过 SSH 的 `目的 NAT` 和 `组网配置` 功能，主要还是以实现自己的需求为主，想调其它接口可以参照源码自行实现，小工具通过 `DPTechFWShell_withoutPaging()` 方法实现了 SSH 下普通模式和特权模式的调用，也欢迎提交 PR ，新增更多功能
 
+# 优香酱系列小工具导航
+
+- GitHub - luckykeeper/RESTCONF-YuukaChan: 优香酱华为 USG 系列设备北向管理小工具 | HayaseYuuka Huawei USG Series Device RESTCONF Management Tool
+  https://github.com/luckykeeper/RESTCONF-YuukaChan
+- GitHub - luckykeeper/YuukaChan-DPTECH: 优香酱迪普 FW 系列设备管理小工具 | HayaseYuuka DPTech FW Series Device Management Tool
+  https://github.com/luckykeeper/YuukaChan-DPTECH
+- GitHub - luckykeeper/YuukaDownloader: 优香酱系列小工具——快速解析初音站(yngal/fufugal)链接并送Aria2下载
+  https://github.com/luckykeeper/YuukaDownloader
+- GitHub - luckykeeper/YuukaChan-Ruijie-WS6xxx-Exporter: 优香酱系列小工具——锐捷AC WS6xxx 系列 Prometheus Exporter ，附带 Grafana 仪表盘模板 | HayaseYuuka Ruijie AC WS6xxx Series Prometheus Exporter With Grafana Template Included
+
 # 附录
 
 就在这里发癫！
